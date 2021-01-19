@@ -1,18 +1,37 @@
 /* CSS HEX */
-#F7FFF7 - almost white
+/* #F7FFF7 - almost white
 #343434 - dark gray - almost black
 #2F3061 - blue dark
 #FFE66D - yellow
-#A1C6D7 - blue light
+#A1C6D7 - blue light */
 
 
 /* Global styles
 --------------------------------*/
 body {
-	color: black;
+	color:#343434;
+	/* done for making color come to end */
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
 }
 img {
 	width:300px;
+}
+a {
+	color: #FFE66D;
+}
+h1 , h2 {
+	font-family: 'Caveat', cursive;
+}
+h1 {
+	font-size: 80px;
+	margin: 0;
+}
+.content-wrap {
+	width: 800px;
+	margin: 0 auto;
+	padding: 60px;
 }
 /* Profile styles
 --------------------------------*/
@@ -26,6 +45,16 @@ header {
 .projects {
 	background:#F7FFF7;
 }
+.projects a {
+	color: #F7FFF7;
+	padding: 8px;
+	border-radius: 5px;
+	text-decoration: none;
+	background:#2F3061;
+}
+.projects a:hover{
+	background: :rgba(47,47,97,80%);
+}
 
 /* Work EXPERIENCE styles
 --------------------------------*/
@@ -35,11 +64,12 @@ header {
 /* Eduction
 ------------------------------*/
 .education {
-	background: #FFE66D;
+	background-image: url('../images/education.jpg');
 }
 
 /* Contact INFO styles
 --------------------------------*/
+
 .contact {
 	background: #343434;
 		color: #F7FFF7;
